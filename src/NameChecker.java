@@ -1,15 +1,13 @@
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class NameChecker {
 
     public static void main(String[] args) {
-        // Create a list of ten names
-        List<String> namesList = Arrays.asList(
+        // Create an array of ten names
+        String[] namesArray = {
             "Alice", "Bob", "Charlie", "David", "Eve",
             "Frank", "Grace", "Hannah", "Isaac", "Jack"
-        );
+        };
 
         // Create a Scanner object to read input from the console
         Scanner scanner = new Scanner(System.in);
@@ -23,8 +21,17 @@ public class NameChecker {
         // Capitalize the first letter of the entered name
         String capitalizedInputName = capitalizeFirstLetter(inputName);
 
-        // Check if the capitalized name is in the list
-        if (namesList.contains(capitalizedInputName)) {
+        // Check if the capitalized name is in the array
+        boolean isInArray = false;
+        for (String name : namesArray) {
+            if (name.equals(capitalizedInputName)) {
+                isInArray = true;
+                break;
+            }
+        }
+
+        // Print the result
+        if (isInArray) {
             System.out.println("The name " + capitalizedInputName + " is in the list.");
         } else {
             System.out.println("The name " + capitalizedInputName + " is not in the list.");
