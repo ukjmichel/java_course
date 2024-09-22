@@ -1,4 +1,4 @@
-package app;
+package course;
 // The HelloWorld class is declared as public, meaning it can be accessed by any other class.
 public class HelloWorld {
 
