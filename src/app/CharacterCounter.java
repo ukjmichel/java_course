@@ -1,3 +1,4 @@
+package app;
 import java.util.Scanner; // Import the Scanner class
 
 public class CharacterCounter {
