@@ -1,6 +1,6 @@
 package course;
 
-public class VariablesValues {
+public class Variables {
     public static void main(String[] args) {
 
         System.out.println("");
@@ -45,6 +45,30 @@ public class VariablesValues {
         System.out.println("The minimum value of a long = " + minLongValue);
         System.out.println(
                 "Usage: Used when a wider range than int is needed, such as for large counts or calculations.");
+        System.out.println("");
+
+        float maxFloatValue = Float.MAX_VALUE;
+        float minFloatValue = Float.MIN_VALUE;
+
+        System.out.println("type Float");
+        System.out.println("Size 32 bits (4 bits)");
+        System.out.println("Precision: 7 decimal digits");
+        System.out.println("The maximum value of a long = " + maxFloatValue);
+        System.out.println("The minimum value of a long = " + minFloatValue);
+        System.out.println(
+                "Used when less precision is acceptable, and memory savings are important.");
+        System.out.println("");
+
+        double maxDoubleValue = Double.MAX_VALUE;
+        double minDoubleValue = Double.MIN_VALUE;
+
+        System.out.println("type Double");
+        System.out.println("Size 64 bits (8 bits)");
+        System.out.println("Precision: 15 decimal digits");
+        System.out.println("The maximum value of a long = " + maxDoubleValue);
+        System.out.println("The minimum value of a long = " + minDoubleValue);
+        System.out.println(
+                "Usage: Most common for floating-point arithmetic due to its higher precision. This is the default type for floating-point numbers in Java.");
         System.out.println("");
 
     }
