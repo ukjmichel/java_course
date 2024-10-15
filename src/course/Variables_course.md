@@ -23,22 +23,23 @@ In Java, a **variable** is a container that holds a value that can be changed du
 
 ### Syntax:
 
-data_type variable_name = value;`
+data_type variable_name = value;
 
 
 **Example:**
 
 ```java
 int age = 25;
-In this example:
 ```
 
+**In this example:**
 int is the data type.
 age is the variable name.
 25 is the value assigned to the variable.
 
 ## Variable Declaration and Initialization
-Variables must be declared before they can be used in the program. Optionally, you can also initialize the variable when you declare it.
+Variables must be declared before they can be used in the program. Optionally,
+you can also initialize the variable when you declare it.
 
 **Declaration:**
 
@@ -168,23 +169,56 @@ float, double – Floating-point types
 char – Character type
 boolean – Boolean type (true or false)
 
-_Example:_
+_byte:_
+Size: 1 byte (8 bits)
+Range: -128 to 127
 
-```java
-int age = 25;
-boolean isStudent = true;
-char grade = 'A';
-```
+_short:_
+Size: 2 bytes (16 bits)
+Range: -32,768 to 32,767
+
+_int:_
+Size: 4 bytes (32 bits)
+Range: -2,147,483,648 to 2,147,483,647
+
+_long:_
+Size: 8 bytes (64 bits)
+Range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+
+_float:_
+Size: 4 bytes (32 bits)
+Used for single-precision floating-point numbers.
+
+_double:_
+Size: 8 bytes (64 bits)
+Used for double-precision floating-point numbers.
+
+_char:_
+Size: 2 bytes (16 bits)
+Represents a single 16-bit Unicode character.
+
+_boolean:_
+Size: not precisely defined; typically 1 bit
+Represents one of two values: true or false.
 
 **Reference Data Types**
 Reference types refer to objects. Examples include arrays, strings, and objects of classes.
 
-_Example:_
+_Classes_
+Definition: 
+A class is a blueprint for creating objects, defining properties (attributes) and methods (behaviors).
 
-```java
-String name = "John";  // Reference type
-Person person = new Person();  // Reference type
-```
+_Interfaces_
+Definition: 
+An interface is a reference type in Java that is similar to a class but can only contain abstract methods (methods without a body) and constants. Interfaces are used to achieve abstraction and multiple inheritance in Java.
+
+_Arrays_
+Definition: 
+An array is a data structure that can hold a fixed number of values of a single type. The length of an array is established when the array is created.
+
+_Collections_
+Definition: 
+Collections are classes that store groups of objects. Common collection types include List, Set, and Map. They provide various methods for manipulating groups of objects.
 
 ## Variable Scope
 Scope defines the region of the program where the variable is accessible. There are three main scopes:
