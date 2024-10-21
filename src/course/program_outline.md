@@ -58,25 +58,29 @@
 -   Difference between abstract class and interface
 
 ## Module 4: Exception Handling
-Lesson 1: Introduction to Exceptions
-try, catch, finally blocks
-throw and throws keywords
-Lesson 2: Types of Exceptions
-Checked vs Unchecked exceptions
-Common exceptions (NullPointerException, ArrayIndexOutOfBoundsException, etc.)
-Lesson 3: Custom Exceptions
-Creating your own exception classes
-Module 5: Java Collections Framework
-Lesson 1: Overview of Collections
+### Lesson 1: Introduction to Exceptions
+- try, catch, finally blocks
+- throw and throws keywords
+### Lesson 2: Types of Exceptions
+- Checked vs Unchecked exceptions
+- Common exceptions (NullPointerException, ArrayIndexOutOfBoundsException, etc.)
+### Lesson 3: Custom Exceptions
+- Creating your own exception classes
+
+
+### Module 5: Java Collections Framework
+## Lesson 1: Overview of Collections
 List, Set, Map, Queue interfaces
-Lesson 2: Working with Lists
+## Lesson 2: Working with Lists
 ArrayList, LinkedList, Vector
-Lesson 3: Working with Sets
+## Lesson 3: Working with Sets
 HashSet, LinkedHashSet, TreeSet
-Lesson 4: Working with Maps
+## Lesson 4: Working with Maps
 HashMap, TreeMap, LinkedHashMap
-Lesson 5: Working with Queues
+## Lesson 5: Working with Queues
 PriorityQueue, Deque, ArrayDeque
+
+
 Module 6: File Handling
 Lesson 1: Introduction to File I/O
 FileReader and FileWriter

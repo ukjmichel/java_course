@@ -330,11 +330,10 @@ public class Main {
     }
 }
 ```
-Interfaces
-Interface: A reference type in Java, similar to a class, that can contain only constants, method signatures, default methods, and static methods. A class implements an interface.
-Example:
-java
-Copier le code
+### Interfaces
+- **Interface:** A reference type in Java, similar to a class, that can contain only constants, method signatures, default methods, and static methods. A class implements an interface.
+**Example:**
+```java
 interface Animal {
     void makeSound();
 }
@@ -342,3 +341,4 @@ interface Animal {
 class Dog implements Animal {
     @Override
     public void makeSound
+```
